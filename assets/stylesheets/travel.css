@@ -3,7 +3,7 @@ Set the box sizing for every element on the page
 to border-box. This will ensure that elements have padding and 
 border included in the element's total width and height.
 */
-html{
+*{
   box-sizing: border-box;
 }
 
@@ -85,7 +85,7 @@ target the elements with a class of card and set the following:
   text-align: center;
   color:black;
   background-size: contain;
-  background:no-repeat;
+  background-repeat: no-repeat;
 }
 
  
@@ -103,7 +103,7 @@ target the element with the id of hero and set the following
   height: 400px;
   background-size: cover;
   background: no-repeat;
-  background-image: url(../assets/images/travel_hero.jpg);
+  background-image: url(../images/travel_hero.jpg);
 }
 
 
@@ -113,7 +113,7 @@ target the element with the id of spain
  - set the background image to (spain_flag.svg) in our assets/images directory
 */
 #spain{
-  background-image: url(../assets/images/spain_flag.svg);
+  background-image: url(../images/spain_flag.svg);
 }
 
 
@@ -122,7 +122,7 @@ target the element with the id of italy
 - set the background image to (italy_flag.svg) in our assets/images directory
 */
 #italy{
-  background-image: url(../assets/images/italy_flag.svg);
+  background-image: url(../images/italy_flag.svg);
 }
 
 
@@ -131,7 +131,7 @@ target the element with the id of aruba
 - set the background image to (aruba_flag.svg) in our assets/images directory
 */
 #aruba{
-  background-image: url(../assets/images/aruba_flag.svg);
+  background-image: url(../images/aruba_flag.svg);
 }
 
 
@@ -140,7 +140,7 @@ target the element with the id of chile
 - set the background image to (chile_flag.svg) in our assets/images directory
 */
 #chile{
-  background-image: url(../assets/images/chile_flag.svg);
+  background-image: url(../images/chile_flag.svg);
 }
 
 
@@ -204,7 +204,7 @@ nav{
   - remove the underline from the links
   - make sure the text is white
 */
-header*{
+header *{
   color: white;
   text-decoration: none;
 }
@@ -303,7 +303,7 @@ footer{
  target the links (anchor <a> tags) inside the element with the id of social-links
   - make sure the text is white and there is no underline
 */
-a{
+#social-links a{
   color:white;
   text-decoration: none;
 }
